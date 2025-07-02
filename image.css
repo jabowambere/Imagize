@@ -1,0 +1,94 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.insert{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+input[type="text"]{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+textarea{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    width: 400px;
+    height: 80px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+input[type="submit"]{
+    position: relative;
+    top: 100px;
+    right: 350px;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-weight: 1000;
+}
+input[type="submit"]:hover{
+    color:white;
+    background-color: black;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+}
+
+.output {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 20px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.img img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.desc {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dir {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.button{
+    position:relative;
+    left: 20px;
+    bottom: 10px;
+}
